@@ -1,29 +1,8 @@
 # SurrogateGame
 
-TODO: Write a gem description
+This is a code example on how to use [Surrogate](https://github.com/JoshCheek/surrogate) by Josh Cheek. It is not a program. You can only run the test file.
 
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'surrogate_game'
-
-And then execute:
-
+To run the test
+    $ git clone https://github.com/nhu313/surrogate_game
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install surrogate_game
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    $ rspec
