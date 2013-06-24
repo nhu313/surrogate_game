@@ -11,6 +11,10 @@ class Rules
     @board.unique_marked_values.detect {|p| win?(p)}
   end
 
+  def winner?(player)
+    win?(player)
+  end
+
   private
   def win?(player)
     square_sets.any? do |squares|
